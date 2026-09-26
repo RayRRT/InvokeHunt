@@ -1,0 +1,19 @@
+# Results and reports
+results/
+yara-report-*.json
+
+# User config (contains API keys)
+config.json
+
+# Test binaries
+test-loader/
+*.exe
+*.dll
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+
+# YARA rules (cloned separately)
+protections-artifacts/

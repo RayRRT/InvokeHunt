@@ -1,0 +1,17 @@
+{
+    "yara": {
+        "rules_dir": "C:\\tools\\protections-artifacts\\yara\\rules",
+        "scanner_script": ".\\yara_scan.py"
+    },
+    "delivery": {
+        "http_port": 8080
+    },
+    "elastic": {
+        "es_url": "https://YOUR-ID.es.cloud.elastic.co:9243",
+        "api_key": "YOUR-API-KEY-BASE64",
+        "wait_seconds": 30
+    },
+    "output": {
+        "results_dir": ".\\results"
+    }
+}
